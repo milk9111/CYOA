@@ -1,0 +1,20 @@
+{
+  "commands": [
+    {
+      "key": "help",
+      "summary": "Prints list of all available commands"
+    },
+    {
+      "key": "history",
+      "summary": "Use '-history true' to show terminal history and '-history false' to disable terminal history"
+    },
+    {
+      "key": "resume",
+      "summary": "Prints the text of the most recent story node"
+    },
+    {
+      "key": "exit",
+      "summary": "Returns to the main menu"
+    }
+  ]
+}

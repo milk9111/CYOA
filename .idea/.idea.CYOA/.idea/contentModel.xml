@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\git\CYOA\CYOA" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Commands" t="Include">
+            <e p="Command.cs" t="Include" />
+            <e p="Exit.cs" t="Include" />
+            <e p="Help.cs" t="Include" />
+            <e p="History.cs" t="Include" />
+            <e p="Resume.cs" t="Include" />
+          </e>
+          <e p="Domain" t="Include">
+            <e p="AvailableCommand.cs" t="Include" />
+            <e p="AvailableCommandList.cs" t="Include" />
+            <e p="InputGroup.cs" t="Include" />
+            <e p="LineHolder.cs" t="Include" />
+            <e p="Node.cs" t="Include" />
+            <e p="NodeLink.cs" t="Include" />
+            <e p="Segment.cs" t="Include" />
+            <e p="StoryNode.cs" t="Include" />
+          </e>
+          <e p="LineCollisionResolver.cs" t="Include" />
+          <e p="NodeEditorManager.cs" t="Include" />
+          <e p="NodeGraphManager.cs" t="Include" />
+          <e p="NodeManager.cs" t="Include" />
+          <e p="References" t="Include">
+            <e p="Directions.cs" t="Include" />
+          </e>
+          <e p="StartScreenManager.cs" t="Include" />
+          <e p="TerminalHistory.cs" t="Include" />
+          <e p="TerminalInput.cs" t="Include" />
+          <e p="TerminalInputManager.cs" t="Include" />
+          <e p="TerminalManager.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="InputFieldSubmitOnly.cs" t="Include" />
+            <e p="InputGroups.cs" t="Include" />
+            <e p="LinkSlider.cs" t="Include" />
+          </e>
+          <e p="Util" t="Include">
+            <e p="NodeUtil.cs" t="Include" />
+            <e p="TerminalUtil.cs" t="Include" />
+          </e>
+          <e p="ViewInputManager.cs" t="Include" />
+        </e>
+        <e p="TestHistory" t="Include">
+          <e p="test.txt" t="Include" />
+        </e>
+      </e>
+      <e p="CYOA.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="C:\Users\Connor Lundberg\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Connor Lundberg\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_CYOA.-1898412949.00" t="ExcludeRecursive" />
+  </component>
+</project>
