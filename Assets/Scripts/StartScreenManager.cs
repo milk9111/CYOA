@@ -9,4 +9,9 @@ public class StartScreenManager : MonoBehaviour
     {
         SceneManager.LoadScene(scene);
     }
+
+    public void CloseGame()
+    {
+        Application.Quit();
+    }
 }
