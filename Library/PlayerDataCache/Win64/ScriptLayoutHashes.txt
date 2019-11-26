@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/git/CYOA/CYOA/CYOA.exe
+C:/git/CYOA/CYOA.exe
 SceneListBegin?
 Assets/Scenes/start_screen.unity
 Assets/Scenes/cyoa_editor.unity
@@ -18,6 +18,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Commands.Resume
 cf8e7c932b6fd82a01d8064761d4cd2a Assembly-CSharp.dll:UI.LinkSlider
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -51,6 +52,8 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 0fd6822f6177297bd0eb4d83cc7a9030 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
+71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 5fc094978ce3e3591a7500ed380d854a UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -117,6 +120,7 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 07e43f3de799fbb85779bc3a426f5c25 Assembly-CSharp.dll:.NodeEditorManager
 faa7964dfac38d3d6cf69b736312a204 Assembly-CSharp.dll:.LineCollisionResolver
 e643a6e4be6edd3b7c00940aef80247b Assembly-CSharp.dll:.TerminalManager
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Commands.Exit
 08cc03b9145d3bef2b98f9c46a240bd2 Assembly-CSharp.dll:.TerminalInput
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 39514a3864e8596b55605370e1c7c033 Assembly-CSharp.dll:.NodeGraphManager
@@ -153,5 +157,8 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 5c925b2fb7a035ba08cde67cd6f2a4e7 Assembly-CSharp.dll:UI.InputGroups
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-d962f055b6e3a43c4fdc8bc2532f02ec Assembly-CSharp.dll:.TerminalHistory
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.StartScreenManager
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Commands.History
+0350faacdddf8cdc3264d49c23fcbc6b Assembly-CSharp.dll:.TerminalInputManager
+d962f055b6e3a43c4fdc8bc2532f02ec Assembly-CSharp.dll:.TerminalHistory
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Commands.Help

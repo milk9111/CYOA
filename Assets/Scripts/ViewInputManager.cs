@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UI;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class ViewInputManager : MonoBehaviour
 {
@@ -69,5 +70,10 @@ public class ViewInputManager : MonoBehaviour
     public bool IsPaused()
     {
         return isPaused;
+    }
+
+    public void ExitEditor()
+    {
+        SceneManager.LoadScene("start_screen");
     }
 }
